@@ -1,5 +1,8 @@
 import Head from "next/head";
+import Footer from "../comps/Footer";
+import Navbar from "../comps/Navbar";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,6 +20,9 @@ export default function Home() {
         reprehenderit nihil a vitae animi voluptatem aliquid, cum, velit
         repellendus.
       </p>
+      <Link href="/devs">
+        <a>See Dev Listing</a>
+      </Link>
     </div>
   );
 }
