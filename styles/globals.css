@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
 body {
-  background: #f2f2f2;
-  color: #333;
+  background: #35709b;
+  color: #fff;
   font-family: "Nunito";
 }
 a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 .content {
@@ -32,8 +32,8 @@ footer {
   text-align: center;
   padding: 30px 0;
   margin-top: 60px;
-  color: #777;
-  border-top: 1px solid #eaeaea;
+  color: #fff;
+  border-top: 1px solid #fff;
 }
 
 .not-found {
