@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 body {
   background: #35709b;
   color: #fff;
-  font-family: "Nunito";
+  font-family: 'Rajdhani', sans-serif;
 }
 a {
   color: #fff;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 .content {
   max-width: 960px;
@@ -42,4 +44,7 @@ footer {
 .not-found a {
   color: #4979ff;
   text-decoration: underline;
+}
+.logo:hover {
+  cursor: pointer;
 }
